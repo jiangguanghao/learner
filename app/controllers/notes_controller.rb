@@ -4,7 +4,7 @@ class NotesController < ApplicationController
 
   def new
     @task = Task.find(params[:task_id])
-    @note = note.new
+    @note = Note.new
   end
 
   def create
